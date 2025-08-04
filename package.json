@@ -1,0 +1,34 @@
+{
+  "name": "mcp-demo-server-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.29.0",
+    "mongoose": "^8.17.0",
+    "node-fetch": "^3.3.2",
+    "readline-sync": "^1.4.10",
+    "ws": "^8.18.3",
+    "zod": "^3.25.76"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-180/MCP.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Code-180/MCP/issues"
+  },
+  "homepage": "https://github.com/Code-180/MCP#readme"
+}
